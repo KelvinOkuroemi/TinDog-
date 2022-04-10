@@ -1,0 +1,168 @@
+body {
+  font: "Montserrat-black";
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font: "Montserrat-black";
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: aliceblue;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.rotate {
+  transform: rotate(20deg);
+}
+
+.bend-low {
+  margin-top: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-style: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+/* styling buttons */
+.Download {
+  margin: 1rem 1rem 1rem 0;
+}
+
+/* image */
+.welcome-image {
+  width: 60%;
+  position: absolute;
+  z-index: 0;
+  right: 2rem;
+  top: 0%;
+}
+
+/* section two */
+#features {
+  background-color: white;
+  padding: 6rem 3rem 6rem 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.center {
+  width: 100%;
+}
+
+.icon-feature {
+  margin: 4rem 0;
+}
+
+.mini {
+  margin: 0.5rem 0;
+  font-weight: 900;
+}
+.fa {
+  color: #ef8172;
+}
+.fa:hover {
+  color: #ff4c68;
+}
+
+.center-feature-text {
+  margin: 0 auto;
+  max-width: 15rem;
+  color: #8f8f8f;
+}
+
+/* testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* media query */
+
+@media screen and (max-width: 1028px) {
+  .welcome-image {
+    position: static;
+  }
+  .rotate {
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Call to action section */
+
+#cta {
+  background-color: #ff4c68;
+}
+
+/* footer */
+
+#footer {
+  color: #8f8f8f;
+}
+
+.fabi {
+  color: #000;
+  margin: 2rem 1rem;
+}
